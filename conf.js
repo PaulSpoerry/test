@@ -5,6 +5,7 @@ const config = new Conf();
 config.set('unicorn', '🦄');
 console.log(config.get('unicorn'));
 //=> '🦄'
+// I like that unicorn
 
 // Use dot-notation to access nested properties
 config.set('foo.bar', true);
